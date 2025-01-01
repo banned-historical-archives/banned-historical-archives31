@@ -102,7 +102,7 @@ async function wengekeyword() {
     console.log('done')
 }
 (async () => {
-    // await wengezhuanti();
-    // await hongweibing();
+    await wengezhuanti();
+    await hongweibing();
     await wengekeyword();
 })();
